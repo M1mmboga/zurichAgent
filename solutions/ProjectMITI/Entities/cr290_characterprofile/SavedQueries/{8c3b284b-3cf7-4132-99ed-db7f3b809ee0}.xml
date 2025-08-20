@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{8c3b284b-3cf7-4132-99ed-db7f3b809ee0}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr290_charactername" select="1" icon="1" preview="1">
+        <row name="result" id="cr290_characterprofileid">
+          <cell name="cr290_charactername" width="300" />
+          <cell name="cr290_charactergender" width="150" />
+          <cell name="cr290_characteraffiliation" width="150" />
+          <cell name="cr290_characterbiography" width="150" />
+          <cell name="cr290_characterrank" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr290_characterprofile">
+          <attribute name="cr290_characterprofileid" />
+          <attribute name="cr290_charactername" />
+          <attribute name="createdon" />
+          <order attribute="cr290_charactername" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr290_charactergender" />
+          <attribute name="cr290_characteraffiliation" />
+          <attribute name="cr290_characterbiography" />
+          <attribute name="cr290_characterrank" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Character Profile" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
