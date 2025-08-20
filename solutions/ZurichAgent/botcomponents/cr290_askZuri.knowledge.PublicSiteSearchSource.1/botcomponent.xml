@@ -1,0 +1,11 @@
+<botcomponent schemaname="cr290_askZuri.knowledge.PublicSiteSearchSource.1">
+  <componenttype>16</componenttype>
+  <description>This knowledge source searches information on the web found in https://www.zurich.co.uk/ website</description>
+  <iscustomizable>0</iscustomizable>
+  <name>https://www.zurich.co.uk/</name>
+  <parentbotid>
+    <schemaname>cr290_askZuri</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

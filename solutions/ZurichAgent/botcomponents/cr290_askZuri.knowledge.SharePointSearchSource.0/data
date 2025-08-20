@@ -1,0 +1,4 @@
+kind: KnowledgeSourceConfiguration
+source:
+  kind: SharePointSearchSource
+  site: https://m365cpi22829036.sharepoint.com/sites/ZIGCommunications

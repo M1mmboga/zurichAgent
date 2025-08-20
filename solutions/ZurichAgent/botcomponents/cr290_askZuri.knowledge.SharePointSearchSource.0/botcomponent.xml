@@ -1,0 +1,11 @@
+<botcomponent schemaname="cr290_askZuri.knowledge.SharePointSearchSource.0">
+  <componenttype>16</componenttype>
+  <description>This knowledge source provides information found in ZIGCommunications SharePoint.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>ZIGCommunications</name>
+  <parentbotid>
+    <schemaname>cr290_askZuri</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>
