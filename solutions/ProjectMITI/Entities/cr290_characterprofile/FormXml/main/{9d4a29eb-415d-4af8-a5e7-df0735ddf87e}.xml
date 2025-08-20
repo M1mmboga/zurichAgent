@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9d4a29eb-415d-4af8-a5e7-df0735ddf87e}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{e8fe5c3e-9110-4d9a-8bb3-b9e9b112008f}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{7e9dc102-426a-4894-b278-730d330968fd}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{28391acc-30e4-4afb-94a5-ca720592ca0d}">
+                        <labels>
+                          <label description="Character Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr290_charactername" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr290_charactername" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5124b5ae-cbcb-430f-9421-0a67fd42fd1e}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c8c3fcdd-efcd-413f-b9f9-3d7fe6525692}">
+                        <labels>
+                          <label description="Character Gender" languagecode="1033" />
+                        </labels>
+                        <control id="cr290_charactergender" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr290_charactergender" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cfc5de97-7181-4f2a-80f5-4ede77e9c2c8}">
+                        <labels>
+                          <label description="Character Affiliation" languagecode="1033" />
+                        </labels>
+                        <control id="cr290_characteraffiliation" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="cr290_characteraffiliation" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{83be6c0e-7934-46c3-8c75-a36d849fe8f1}">
+                        <labels>
+                          <label description="Character Biography" languagecode="1033" />
+                        </labels>
+                        <control id="cr290_characterbiography" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="cr290_characterbiography" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a82b1637-5e3d-4bc5-a5cc-42b1f9d8669f}">
+                        <labels>
+                          <label description="Character Rank" languagecode="1033" />
+                        </labels>
+                        <control id="cr290_characterrank" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="cr290_characterrank" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
